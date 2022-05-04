@@ -1,0 +1,10 @@
+torch
+transformers
+git+https://github.com/PyTorchLightning/pytorch-lightning.git
+pandas
+ray[tune]
+tensorboard==2.4.0
+tensorboardX==2.1
+tensorboard-plugin-wit==1.7.0
+texthero
+spacy

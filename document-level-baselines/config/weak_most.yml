@@ -1,0 +1,35 @@
+basic_weight_decay: 0
+clean_count: -1
+cls_emb_dim: 8
+cnn_drop_out: 0.3
+cola_score_interval: -1,1.5
+cpus_per_trail: 1
+epochs: 30
+eval_batch_size: 32
+hidden_size: 64
+kernel_num: 100
+kernel_sizes: 3,4,5
+max_length: 50
+meta_weight_decay: 0
+model_name: baseline
+pre_train_basic_epochs: 0
+pre_train_meta_epochs: 0
+train_batch_size: 32
+#random_seed: 123
+is_freeze: false
+class_num: 4
+is_overwrite_file: false
+is_agg_weak: true
+agg_fn_str: most_vote
+is_only_clean: false
+clean_ratio: 0.
+weak_ratio: 0.8
+is_concat_weak_clean: false
+rnn_layers: 2
+hidden_dim: 128
+grid_search:
+  basic_lr_rate: [0.005]
+  n_high_cov: [1]
+  random_seed: [123, 456, 789, 10, 49]
+  # should set less than 1
+
