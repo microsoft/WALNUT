@@ -1,5 +1,5 @@
 # python 3.6
-numpy==1.19.5
+numpy==1.22.0
 pandas==1.1.5
 datasets==1.6.1
 transformers==4.5.1
