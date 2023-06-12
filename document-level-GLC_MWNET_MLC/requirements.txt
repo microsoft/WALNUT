@@ -3,7 +3,7 @@ spacy
 tensorboard
 numpy
 pandas
-transformers==4.6.1
+transformers==4.30.0
 tokenizers
 sentence-transformers
 seqeval
